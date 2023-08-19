@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CECS Graduates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="mainWrapper">
+        <header>
+            <div id="logo">
+                <img src="Header_Logo.png" alt="CECS Alumni Database">
+            </div>
+        </header>
+        <div id="search-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter Name">
+            <label for="degree">Degree:</label>
+            <select id="degree">
+                <option value="none">Select Degree</option>
+                <option value="artificial-intelligence">Artificial Intelligence</option>
+                <option value="bioengineering">Bioengineering</option>
+                <!-- Add more options -->
+            </select>
+            <label for="year">Graduation Year:</label>
+            <select id="year">
+                <option value="none">Select Year</option>
+                <option value="2016">2016</option>
+                <!-- Add more options -->
+            </select>
+            <button id="search-button">Search</button>
+        </div>
+        <div class="graduate" id="results">
+            <!-- Display search results here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
